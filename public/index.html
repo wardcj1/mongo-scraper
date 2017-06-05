@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en-us">
+  <head>
+    <meta charset="UTF-8">
+    <title>Mongo Scraper</title>
+    <link href="https://fonts.googleapis.com/css?family=Trocchi" rel="stylesheet">
+    <style>
+      body { background-image: url(../images/stock_board.jpeg); }
+      #wrapper {
+        width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        padding-top: 5%;
+        background-color: white;
+        opacity: 0.85;  
+        border-radius: 7px;
+      }
+      #articles {
+        display: inline-block;
+        overflow: auto;
+        width: 60%;
+        height: 700px;
+        background-color: white;
+      }
+      #notes {
+        float: right;
+        width: 30%;
+        background-color: white;
+      }
+      #header-text1 {
+         font-family: 'Trocchi', serif;
+         font-size: 65px;
+         text-align: center;
+         color: goldenrod;
+         font-weight: 900;
+         -webkit-text-stroke-width: 1px;
+         -webkit-text-stroke-color: navy;
+      }
+      #header-text2 {
+         font-family: 'Trocchi', serif;
+         font-size: 30px;
+         margin-left: 20%;
+         color: navy;
+         font-weight: bold;
+         -webkit-text-stroke-width: 1px;
+         -webkit-text-stroke-color: navy;
+      }
+
+      textarea, input {
+        display: block;
+        width: 100%;
+        background-color: white;
+      }
+      input {
+        height: 36px;
+        font-size: 24px;
+      }
+      textarea {
+        height: 200px;
+        font-size: 18px;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="wrapper">
+      <h1 id="header-text1">Investment News Scraper</h1>
+      <h2 id="header-text2"><i>Check out the latest:</i></h2>
+      <div id="articles"></div>
+      <div id="notes"></div>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.1.1.min.js"></script>
+    <script src="app.js"></script>
+  </body>
+</html>
