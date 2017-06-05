@@ -1,6 +1,6 @@
 # mongo-scraper
 
-![ScreenShot](/images/ss002.gif)
+![ScreenShot](/public/images/ss002.gif)
 
 ## Live Link
  - https://wardcj1.github.io/mongo-scraper
